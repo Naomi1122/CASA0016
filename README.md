@@ -20,7 +20,7 @@ The aim for this project is to collect all the parameters of indoor air quality 
 | SGP30 | a digital multi-pixel gas sensor outputs equivalent CO2 in ppm and Total Volatile Organic Compounds (TVOC) in ppb |
 | T6713 CO2 sensor | latest generation of compact non‐dispersive infrared (NDIR) carbon dioxide sensors |
 | PMS5003 | digital and universal particle concentration sensor, which can be used to obtain the number of suspended particles in the air, i.e. the concentration of particles |
-| Neopixel | 8 RGB LED light bulbs |
+| Neopixel strip | 8 RGB LED light bulbs |
 | LCD HD44780 16x2 | display digitals to visualise the data |
 
 
@@ -122,6 +122,7 @@ Set the range to 10um/0.1L <54 and 2.5um/0.1L <12, if exceed either condition, t
 * Better outter cases
 * uploaded through Lora to the Things network and to set alarm and visualise through phones.
 * Add more devices for different rooms in the building.
+* Connect to air filter and air humidifier in the room.
 
 ## Reference
 1. https://learn.adafruit.com/adafruit-sgp30-gas-tvoc-eco2-mox-sensor
