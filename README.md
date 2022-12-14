@@ -23,4 +23,7 @@ The aim for this project is to collect all the parameters of indoor air quality 
 | Neopixel | 8 RGB LED light bulbs |
 | LCD HD44780 16x2 | display digitals to visualise the data |
 
+### Pin connection
+
+
 
