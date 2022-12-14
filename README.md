@@ -73,5 +73,5 @@ For my project, I found that the standard units is the same as the environmental
 Then, I displayed particles smaller than 1.0um, 2.5um and 10um per 0.1L air. Set the range to 10um/0.1L <50 and 2.5um/0.1L <35, if exceed either condition, the LEDs goes to red, otherwise, green LEDs.
 
 ## Future Development
-Better outter cases
-uploaded through Lora to the Things network and to set alarm and visualise through phones.
+* Better outter cases
+* uploaded through Lora to the Things network and to set alarm and visualise through phones.
