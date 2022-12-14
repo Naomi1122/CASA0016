@@ -92,9 +92,10 @@ The CO2 value measured by T6713 is displayed on the LCD and the safety value is 
 ![3891671013656_ pic](https://user-images.githubusercontent.com/78373920/207571192-1146dbde-5437-42c5-9b2d-b4f100020226.jpg)
 ![3901671013710_ pic](https://user-images.githubusercontent.com/78373920/207571196-9462f85f-e545-4f92-ba0d-a23dca947ff8.jpg)
 
-I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 50% (used to be 85%), orange LEDs showed.
+I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 70% (used to be 85%), orange LEDs showed.
 ![3911671013825_ pic](https://user-images.githubusercontent.com/78373920/207571578-43d8d713-e30a-4e9b-b253-07648626ce91.jpg)
-![WechatIMG394](https://user-images.githubusercontent.com/78373920/207574461-c1072781-127a-4069-bcd3-8deed565db5c.jpeg)
+![3961671015199_ pic](https://user-images.githubusercontent.com/78373920/207576589-c2e43d4b-4611-4055-ad8b-1e67c7da82bd.jpg)
+
 
 
 #### PMS5003
@@ -113,7 +114,8 @@ According to AQI chart.
 
 Set the range to 10um/0.1L <54 and 2.5um/0.1L <12, if exceed either condition, the LEDs goes to red, otherwise, green LEDs.
 ![3871671013635_ pic](https://user-images.githubusercontent.com/78373920/207571744-b7c17e9b-c79d-4772-bbcb-d2c761923c6a.jpg)
-![3881671013640_ pic](https://user-images.githubusercontent.com/78373920/207571748-a5c8e4db-c1bf-4889-9011-28567b0374e9.jpg)
+![3971671015200_ pic](https://user-images.githubusercontent.com/78373920/207576643-fa5e2446-cbaf-46d7-a79e-e5c49aeb9c18.jpg)
+
 
 
 ## Future Development
