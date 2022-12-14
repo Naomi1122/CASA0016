@@ -94,7 +94,8 @@ The CO2 value measured by T6713 is displayed on the LCD and the safety value is 
 
 I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 75% (used to be 85%), orange LEDs showed.
 ![3911671013825_ pic](https://user-images.githubusercontent.com/78373920/207571578-43d8d713-e30a-4e9b-b253-07648626ce91.jpg)
-![3961671015199_ pic](https://user-images.githubusercontent.com/78373920/207576589-c2e43d4b-4611-4055-ad8b-1e67c7da82bd.jpg)
+![WechatIMG398](https://user-images.githubusercontent.com/78373920/207592065-adc5abb0-19e4-40e3-8818-61d4a4b6d41c.jpeg)
+
 
 
 
