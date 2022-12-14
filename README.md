@@ -6,6 +6,10 @@ According to statistics, people spend more than 90% of their time indoors. Unlik
 
 The deterioration of the outdoor environment and the uneven quality of interior decoration especially newlly built ones have brought about more and more serious indoor pollution problems, which have adversely affected the physical and mental health of residential residents, cause diseases such as respiratory diseases. Our UCL East site is a good example as it's newly built therefore it's good for monitoring.
 
+## Aim
+
+The aim for this project is to collect all the parameters of indoor air quality in real time which are Indoor PM1.0, PM2.5, PM10 concentration, CO2 concentration, TVOC concentration, temperature and humidity. The value of each parameter is measured every 30 seconds and displayed on the LCD screen. Furthermore, for each parameter, a suitable value/range is set. If actual measured value within the value/range, the Neopixel LED is used to indicate by show green LEDs, if exceed, the LEDs change to different colours.
+
 
 ## Construction of the physical prototype sensor
 
@@ -18,3 +22,5 @@ The deterioration of the outdoor environment and the uneven quality of interior 
 | PMS5003 | digital and universal particle concentration sensor, which can be used to obtain the number of suspended particles in the air, i.e. the concentration of particles |
 | Neopixel | 8 RGB LED light bulbs |
 | LCD HD44780 16x2 | display digitals to visualise the data |
+
+
