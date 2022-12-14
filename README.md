@@ -119,3 +119,6 @@ Set the range to 10um/0.1L <54 and 2.5um/0.1L <12, if exceed either condition, t
 ## Future Development
 * Better outter cases
 * uploaded through Lora to the Things network and to set alarm and visualise through phones.
+
+## Reference
+
