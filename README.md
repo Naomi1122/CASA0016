@@ -68,6 +68,8 @@ The sensor container is made from a plastic box as I don't have time to 3d print
 #### DHT22 Humidity and Temperature
 The comfortable humidity for the human body is 30%-60%, therefore, if the humidity in the room is out of the range, blue LEDs showed on the neopixel, if not, green LEDs shows.
 ![3701671012518_ pic](https://user-images.githubusercontent.com/78373920/207567974-dc191776-676c-4ba2-873a-3b206c4b270a.jpg)
+![3821671013292_ pic](https://user-images.githubusercontent.com/78373920/207569767-418a8e94-cc8b-4fc7-b2b2-6e1846d2b43e.jpg)
+![3811671013289_ pic](https://user-images.githubusercontent.com/78373920/207569772-ab3a28b1-1033-41e5-9282-fa471ea66248.jpg)
 
 
 #### SGP30 CO2 and TVOC
@@ -75,11 +77,22 @@ Volatile organic compounds (VOCs) are a group of compounds with high vapor press
 ![3721671012521_ pic](https://user-images.githubusercontent.com/78373920/207568090-1ffab4bd-dd2a-4b22-bfb6-26e073099dbd.jpg)
 
 For a good safety level of CO2 and TVOC, the level is set to CO2 < 1000 ppm and TVOC < 220 ppb accroding to FItwel's Enhanced Indoor Air Quality Testing and Monitoring Protocol. If the reading is out of range for either CO2 or TVOC, yellow LEDs showed, if not, green LEDs showed.
+![3841671013430_ pic](https://user-images.githubusercontent.com/78373920/207570183-839f5eee-7268-413e-8324-eadc564f17ac.jpg)
+![3831671013430_ pic](https://user-images.githubusercontent.com/78373920/207570189-11502054-69d3-4de6-9c00-bb5639c6caa1.jpg)
 
 
 #### T6713 CO2
-As we know from the principle of the SGP30 that it's not measure the actual CO2 in the air, but this sensor is. The CO2 value measured by T6713 is displayed on the LCD and the safety value is set to 1000 as well. If exceed, purple LEDs showed. I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 85%, orange LEDs showed.
+As we know from the principle of the SGP30 that it's not measure the actual CO2 in the air, but this sensor is. 
 ![3681671012515_ pic](https://user-images.githubusercontent.com/78373920/207568132-05273a8e-4720-457f-97da-82591a028832.jpg)
+
+The CO2 value measured by T6713 is displayed on the LCD and the safety value is set to 1000 as well. If exceed, purple LEDs showed. 
+![3891671013656_ pic](https://user-images.githubusercontent.com/78373920/207571192-1146dbde-5437-42c5-9b2d-b4f100020226.jpg)
+![3901671013710_ pic](https://user-images.githubusercontent.com/78373920/207571196-9462f85f-e545-4f92-ba0d-a23dca947ff8.jpg)
+
+I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 85%, orange LEDs showed.
+![3911671013825_ pic](https://user-images.githubusercontent.com/78373920/207571578-43d8d713-e30a-4e9b-b253-07648626ce91.jpg)
+![3921671013826_ pic](https://user-images.githubusercontent.com/78373920/207571583-a678b3bc-e3c9-4d28-ac00-c143ecc79ecd.jpg)
+
 
 #### PMS5003
 This sensor can outputs data as follow:
@@ -88,7 +101,12 @@ Particulate matter per 0.1L air, categorized by 0.3um, 0.5um, 1.0um, 2.5um, 5.0u
 ![3711671012520_ pic](https://user-images.githubusercontent.com/78373920/207568038-1b0165b0-04e3-436d-9613-86d164851b6f.jpg)
 
 For my project, I found that the standard units is the same as the environmental units for all PM1.0, PM2.5 and PM10.0 concentration, so I just diaplayed once on the LCD.
+![WechatIMG393](https://user-images.githubusercontent.com/78373920/207571968-fd40e2ef-8e15-47c1-bfe2-d27e66ad80dc.jpeg)
+
+
 Then, I displayed particles smaller than 1.0um, 2.5um and 10um per 0.1L air. Set the range to 10um/0.1L <50 and 2.5um/0.1L <35, if exceed either condition, the LEDs goes to red, otherwise, green LEDs.
+![3871671013635_ pic](https://user-images.githubusercontent.com/78373920/207571744-b7c17e9b-c79d-4772-bbcb-d2c761923c6a.jpg)
+![3881671013640_ pic](https://user-images.githubusercontent.com/78373920/207571748-a5c8e4db-c1bf-4889-9011-28567b0374e9.jpg)
 
 ## Future Development
 * Better outter cases
