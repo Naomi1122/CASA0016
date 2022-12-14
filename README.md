@@ -62,6 +62,10 @@ The sensor container is made from a plastic box as I don't have time to 3d print
 ![3801671012932_ pic](https://user-images.githubusercontent.com/78373920/207569218-8dc71f05-45fd-41bf-8ac2-d300f17d6de8.jpg)
 ![3791671012927_ pic](https://user-images.githubusercontent.com/78373920/207569223-ce9cc614-4220-497f-91b4-2dc07f05f6cb.jpg)
 
+## Serial monitor results
+
+![Snipaste_2022-12-14_12-20-50](https://user-images.githubusercontent.com/78373920/207594071-759992ff-dd0e-47bb-992d-3b425f24569b.jpg)
+
 
 ## Result displayed photos
 
