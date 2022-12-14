@@ -32,9 +32,9 @@ The aim for this project is to collect all the parameters of indoor air quality 
 | --- | --- | --- | --- | --- | --- |
 | DHT22 | GND | VCC | DAT -> pin7|
 | SGP30 | GND | VCC | SDA | SCL |
-| T6713 CO2 sensor | latest generation of compact non‐dispersive infrared (NDIR) carbon dioxide sensors |
-| PMS5003 | digital and universal particle concentration sensor, which can be used to obtain the number of suspended particles in the air, i.e. the concentration of particles |
-| Neopixel | 8 RGB LED light bulbs |
+| T6713 CO2 sensor | GND | GND | VCC | SDA | SCL |
+| PMS5003 | GND | VCC | TX -> 2 | RX -> 3 |
+| Neopixel | GND | VCC | DAT -> 2 |
 | LCD HD44780 16x2 | GND | VCC | SDA | SCL |
 
 
