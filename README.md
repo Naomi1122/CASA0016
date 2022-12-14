@@ -39,6 +39,10 @@ The aim for this project is to collect all the parameters of indoor air quality 
 
 Female headers are soldered into copper stripboard for extension of the pins.
 
+LCD Display
+![3731671012649_ pic](https://user-images.githubusercontent.com/78373920/207567647-e5d4b9df-1ba7-4569-95e0-0da03de65e97.jpg)
+![3661671012507_ pic](https://user-images.githubusercontent.com/78373920/207567648-c38c4f09-3ce7-4c56-a9ad-704266f7ca8d.jpg)
+
 #### Outer Case
 
 I used 3d printer to print the LCD holder and neopixel holder, and attached those two on the top of the sensor container.
