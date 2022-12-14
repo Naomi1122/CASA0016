@@ -76,7 +76,7 @@ The comfortable humidity for the human body is 30%-60%, therefore, if the humidi
 Volatile organic compounds (VOCs) are a group of compounds with high vapor pressure and low water solubility. In other words, these substances won’t easily bind to themselves (volatile) or dissolve in water (organic). VOCs are emitted as gasses from everyday products such as building materials, maintenance equipment, and custodial products. Many VOCs are harmful to human health, especially over the long term. 
 ![3721671012521_ pic](https://user-images.githubusercontent.com/78373920/207568090-1ffab4bd-dd2a-4b22-bfb6-26e073099dbd.jpg)
 
-For a good safety level of CO2 and TVOC, the level is set to CO2 < 1000 ppm and TVOC < 220 ppb accroding to FItwel's Enhanced Indoor Air Quality Testing and Monitoring Protocol. 
+For a good safety level of CO2 and TVOC, the level is set to CO2 < 1000 ppm and TVOC < 220 ppb accroding to FItwel's Enhanced Indoor Air Quality Testing and Monitoring Protocol. When CO2 concentration > 1000ppm, People feel dull, start to have trouble concentrating, and have heart palpitations.
 ![Snipaste_2022-12-14_10-37-04](https://user-images.githubusercontent.com/78373920/207573807-4012db90-8bde-4335-945a-07443353114b.jpg)
 
 If the reading is out of range for either CO2 or TVOC, yellow LEDs showed, if not, green LEDs showed.
