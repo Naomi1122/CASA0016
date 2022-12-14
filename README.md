@@ -76,7 +76,10 @@ The comfortable humidity for the human body is 30%-60%, therefore, if the humidi
 Volatile organic compounds (VOCs) are a group of compounds with high vapor pressure and low water solubility. In other words, these substances won’t easily bind to themselves (volatile) or dissolve in water (organic). VOCs are emitted as gasses from everyday products such as building materials, maintenance equipment, and custodial products. Many VOCs are harmful to human health, especially over the long term. 
 ![3721671012521_ pic](https://user-images.githubusercontent.com/78373920/207568090-1ffab4bd-dd2a-4b22-bfb6-26e073099dbd.jpg)
 
-For a good safety level of CO2 and TVOC, the level is set to CO2 < 1000 ppm and TVOC < 220 ppb accroding to FItwel's Enhanced Indoor Air Quality Testing and Monitoring Protocol. If the reading is out of range for either CO2 or TVOC, yellow LEDs showed, if not, green LEDs showed.
+For a good safety level of CO2 and TVOC, the level is set to CO2 < 1000 ppm and TVOC < 220 ppb accroding to FItwel's Enhanced Indoor Air Quality Testing and Monitoring Protocol. 
+![Snipaste_2022-12-14_10-37-04](https://user-images.githubusercontent.com/78373920/207573807-4012db90-8bde-4335-945a-07443353114b.jpg)
+
+If the reading is out of range for either CO2 or TVOC, yellow LEDs showed, if not, green LEDs showed.
 ![3841671013430_ pic](https://user-images.githubusercontent.com/78373920/207570183-839f5eee-7268-413e-8324-eadc564f17ac.jpg)
 ![3831671013430_ pic](https://user-images.githubusercontent.com/78373920/207570189-11502054-69d3-4de6-9c00-bb5639c6caa1.jpg)
 
@@ -89,9 +92,9 @@ The CO2 value measured by T6713 is displayed on the LCD and the safety value is 
 ![3891671013656_ pic](https://user-images.githubusercontent.com/78373920/207571192-1146dbde-5437-42c5-9b2d-b4f100020226.jpg)
 ![3901671013710_ pic](https://user-images.githubusercontent.com/78373920/207571196-9462f85f-e545-4f92-ba0d-a23dca947ff8.jpg)
 
-I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 85%, orange LEDs showed.
+I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 50% (used to be 85%), orange LEDs showed.
 ![3911671013825_ pic](https://user-images.githubusercontent.com/78373920/207571578-43d8d713-e30a-4e9b-b253-07648626ce91.jpg)
-![3921671013826_ pic](https://user-images.githubusercontent.com/78373920/207571583-a678b3bc-e3c9-4d28-ac00-c143ecc79ecd.jpg)
+![WechatIMG394](https://user-images.githubusercontent.com/78373920/207574461-c1072781-127a-4069-bcd3-8deed565db5c.jpeg)
 
 
 #### PMS5003
@@ -104,9 +107,14 @@ For my project, I found that the standard units is the same as the environmental
 ![WechatIMG393](https://user-images.githubusercontent.com/78373920/207571968-fd40e2ef-8e15-47c1-bfe2-d27e66ad80dc.jpeg)
 
 
-Then, I displayed particles smaller than 1.0um, 2.5um and 10um per 0.1L air. Set the range to 10um/0.1L <50 and 2.5um/0.1L <35, if exceed either condition, the LEDs goes to red, otherwise, green LEDs.
+Then, I displayed particles smaller than 1.0um, 2.5um and 10um per 0.1L air. 
+According to AQI chart.
+![Air-quality-index-AQI-values-PM25-and-PM10-conc-color-codes-air-pollutant-level-of](https://user-images.githubusercontent.com/78373920/207573697-0f2c1c3c-b40a-46d8-bcb5-15528e0773e0.png)
+
+Set the range to 10um/0.1L <54 and 2.5um/0.1L <12, if exceed either condition, the LEDs goes to red, otherwise, green LEDs.
 ![3871671013635_ pic](https://user-images.githubusercontent.com/78373920/207571744-b7c17e9b-c79d-4772-bbcb-d2c761923c6a.jpg)
 ![3881671013640_ pic](https://user-images.githubusercontent.com/78373920/207571748-a5c8e4db-c1bf-4889-9011-28567b0374e9.jpg)
+
 
 ## Future Development
 * Better outter cases
