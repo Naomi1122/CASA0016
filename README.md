@@ -37,6 +37,8 @@ The aim for this project is to collect all the parameters of indoor air quality 
 | Neopixel | GND | VCC | DAT -> 2 |
 | LCD HD44780 16x2 | GND | VCC | SDA | SCL |
 
+Female headers are soldered into copper stripboard for extension of the pins.
+
 
 
 
