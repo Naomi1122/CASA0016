@@ -120,6 +120,10 @@ Set the range to 10um/0.1L <54 and 2.5um/0.1L <12, if exceed either condition, t
 
 ## Future Development
 * Better outter cases
+
+![CO2_container](https://user-images.githubusercontent.com/78373920/207586235-b23f5736-1bca-40af-83d7-a8b28b299d34.png)
+![CO2_lid](https://user-images.githubusercontent.com/78373920/207586242-b591a71f-a88c-44a5-aa14-255f8a872d41.png)
+
 * uploaded through Lora to the Things network and to set alarm and visualise through phones.
 * Add more devices for different rooms in the building.
 * Connect to air filter and air humidifier in the room.
