@@ -40,5 +40,18 @@ The aim for this project is to collect all the parameters of indoor air quality 
 Female headers are soldered into copper stripboard for extension of the pins.
 
 
+## Result displayed photos
 
+#### DHT22 Humidity and Temperature
+The comfortable humidity for the human body is 30%-60%, therefore, if the humidity in the room is out of the range, blue LEDs showed on the neopixel, if not, green LEDs shows.
+
+
+#### SGP30 CO2 and TVOC
+Volatile organic compounds (VOCs) are a group of compounds with high vapor pressure and low water solubility. In other words, these substances won’t easily bind to themselves (volatile) or dissolve in water (organic). VOCs are emitted as gasses from everyday products such as building materials, maintenance equipment, and custodial products. Many VOCs are harmful to human health, especially over the long term. 
+
+For a good safety level of CO2 and TVOC, the level is set to CO2 < 1000 ppm and TVOC < 220 ppb accroding to FItwel's Enhanced Indoor Air Quality Testing and Monitoring Protocol. If the reading is out of range for either CO2 or TVOC, yellow LEDs showed, if not, green LEDs showed.
+
+
+#### T6713 CO2
+As we know from the principle of the 
 
