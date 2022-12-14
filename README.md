@@ -123,4 +123,6 @@ Set the range to 10um/0.1L <54 and 2.5um/0.1L <12, if exceed either condition, t
 * uploaded through Lora to the Things network and to set alarm and visualise through phones.
 
 ## Reference
-
+1. https://learn.adafruit.com/adafruit-sgp30-gas-tvoc-eco2-mox-sensor
+2. https://learn.kaiterra.com/en/resources/understanding-tvoc-volatile-organic-compounds
+3. https://www.researchgate.net/figure/Air-quality-index-AQI-values-PM25-and-PM10-conc-color-codes-air-pollutant-level-of_tbl1_343404673/download
