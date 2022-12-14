@@ -4,7 +4,7 @@
 
 According to statistics, people spend more than 90% of their time indoors. Unlike outdoors, there are stations to give out air quality data, we have to measure the air quality indoors by ourselves. By knowing the data of the air quality we can then proceed actions to improve the air quality, for example, open the windows and open air humidifier.
 
-The deterioration of the outdoor environment and the uneven quality of interior decoration especially newlly built ones have brought about more and more serious indoor pollution problems, which have adversely affected the physical and mental health of residential residents, cause diseases such as respiratory diseases. Our UCL East site is a good example as it's newly built therefore it's good for monitoring.
+The deterioration of the outdoor environment and the uneven quality of interior decoration especially newlly built ones have brought about more and more serious indoor pollution problems, which have adversely affected the physical and mental health of residential residents, cause diseases such as respiratory diseases. Our UCL East site and my studio is a good example as it's newly built therefore it's good for monitoring.
 
 ## Aim
 
@@ -39,6 +39,15 @@ The aim for this project is to collect all the parameters of indoor air quality 
 
 Female headers are soldered into copper stripboard for extension of the pins.
 
+#### Outer Case
+
+I used 3d printer to print the LCD holder and neopixel holder, and attached those two on the top of the sensor container.
+
+
+
+The sensor container is made from a plastic box as I don't have time to 3d print a suitable case for now. I have punched holes on the plastic box so that the sensors are able to sense the air outside and the power wires are able to reach out.
+
+
 
 ## Result displayed photos
 
@@ -62,3 +71,7 @@ Particulate matter per 0.1L air, categorized by 0.3um, 0.5um, 1.0um, 2.5um, 5.0u
 
 For my project, I found that the standard units is the same as the environmental units for all PM1.0, PM2.5 and PM10.0 concentration, so I just diaplayed once on the LCD.
 Then, I displayed particles smaller than 1.0um, 2.5um and 10um per 0.1L air. Set the range to 10um/0.1L <50 and 2.5um/0.1L <35, if exceed either condition, the LEDs goes to red, otherwise, green LEDs.
+
+## Future Development
+Better outter cases
+uploaded through Lora to the Things network and to set alarm and visualise through phones.
