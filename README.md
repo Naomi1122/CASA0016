@@ -85,7 +85,7 @@ If the reading is out of range for either CO2 or TVOC, yellow LEDs showed, if no
 
 
 #### T6713 CO2
-As we know from the principle of the SGP30 that it's not measure the actual CO2 in the air, but this sensor is. 
+As we know from the principle of the SGP30 that it's not measure an equivalent carbon dioxide reading (eCO2) over I2C in the air, but this sensor is. 
 ![3681671012515_ pic](https://user-images.githubusercontent.com/78373920/207568132-05273a8e-4720-457f-97da-82591a028832.jpg)
 
 The CO2 value measured by T6713 is displayed on the LCD and the safety value is set to 1000 as well. If exceed, purple LEDs showed. 
