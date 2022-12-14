@@ -53,5 +53,12 @@ For a good safety level of CO2 and TVOC, the level is set to CO2 < 1000 ppm and 
 
 
 #### T6713 CO2
-As we know from the principle of the 
+As we know from the principle of the SGP30 that it's not measure the actual CO2 in the air, but this sensor is. The CO2 value measured by T6713 is displayed on the LCD and the safety value is set to 1000 as well. If exceed, purple LEDs showed. I added this sensor with SGP30 as an indicator to test the accuracy of the SGP30 sensor, the accuracy is displayed on the LCD and if the accuracy is less than 85%, orange LEDs showed.
 
+#### PMS5003
+This sensor can outputs data as follow:
+PM1.0, PM2.5 and PM10.0 concentration in both standard & environmental units
+Particulate matter per 0.1L air, categorized by 0.3um, 0.5um, 1.0um, 2.5um, 5.0um and 10um sizes
+
+For my project, I found that the standard units is the same as the environmental units for all PM1.0, PM2.5 and PM10.0 concentration, so I just diaplayed once on the LCD.
+Then, I displayed particles smaller than 1.0um, 2.5um and 10um per 0.1L air. Set the range to 10um/0.1L <50 and 2.5um/0.1L <35, if exceed either condition, the LEDs goes to red, otherwise, green LEDs.
