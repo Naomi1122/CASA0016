@@ -48,10 +48,19 @@ LCD Display
 
 I used 3d printer to print the LCD holder and neopixel holder, and attached those two on the top of the sensor container.
 
+![3741671012917_ pic](https://user-images.githubusercontent.com/78373920/207569041-30fb70a3-1d86-478d-9976-8c422bff2627.jpg)
+![3751671012920_ pic](https://user-images.githubusercontent.com/78373920/207569027-9b7e7efa-8f89-41f3-8f40-8874f2fefa50.jpg)
+![3761671012925_ pic](https://user-images.githubusercontent.com/78373920/207569034-b468d7b7-8d02-4a4a-a2cb-448fd9df9167.jpg)
+
+
 
 
 The sensor container is made from a plastic box as I don't have time to 3d print a suitable case for now. I have punched holes on the plastic box so that the sensors are able to sense the air outside and the power wires are able to reach out.
 
+![3781671012927_ pic](https://user-images.githubusercontent.com/78373920/207569222-037d24d6-93ea-4e54-b247-4949a94fafe9.jpg)
+![3771671012926_ pic](https://user-images.githubusercontent.com/78373920/207569220-b0b1ac05-96ec-4c46-8463-fe0ec9db42c2.jpg)
+![3801671012932_ pic](https://user-images.githubusercontent.com/78373920/207569218-8dc71f05-45fd-41bf-8ac2-d300f17d6de8.jpg)
+![3791671012927_ pic](https://user-images.githubusercontent.com/78373920/207569223-ce9cc614-4220-497f-91b4-2dc07f05f6cb.jpg)
 
 
 ## Result displayed photos
