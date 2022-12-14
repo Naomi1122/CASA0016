@@ -121,6 +121,7 @@ Set the range to 10um/0.1L <54 and 2.5um/0.1L <12, if exceed either condition, t
 ## Future Development
 * Better outter cases
 * uploaded through Lora to the Things network and to set alarm and visualise through phones.
+* Add more devices for different rooms in the building.
 
 ## Reference
 1. https://learn.adafruit.com/adafruit-sgp30-gas-tvoc-eco2-mox-sensor
