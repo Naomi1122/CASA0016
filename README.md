@@ -15,7 +15,7 @@ The aim for this project is to collect all the parameters of indoor air quality 
 
 | Hardware | Description |
 | --- | --- |
-| Arduino Uno | Useful libraries and has 5v and 3.3v for multiple use |
+| Arduino Uno | Useful libraries and has 5v and 3.3v for multiple use, sufficient number of pins for multiple sensors |
 | DHT22 | Sensor for temperature and humidity |
 | SGP30 | a digital multi-pixel gas sensor outputs equivalent CO2 in ppm and Total Volatile Organic Compounds (TVOC) in ppb |
 | T6713 CO2 sensor | latest generation of compact non‐dispersive infrared (NDIR) carbon dioxide sensors |
