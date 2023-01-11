@@ -50,7 +50,7 @@ void setup()
 
   pmSerial.begin(9600);
   if (! aqi.begin_UART(&pmSerial)) { // connect to the sensor over software serial 
-    Serial.println("Could not find PM 2.5 sensor!");
+    Serial.println("No PMS5003 detect");
     while (1) delay(10);
   }
 
@@ -62,7 +62,7 @@ void setup()
   //Initialize sensor
   if (mySensor.begin() == false) 
 {
-    Serial.println("No SGP30 Detected. Check connections.");
+    Serial.println("No SGP30 Detected");
     while (1);
   }
   //Initializes sensor for air quality readings
