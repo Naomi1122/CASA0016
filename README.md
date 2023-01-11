@@ -30,12 +30,12 @@ The aim for this project is to collect all the parameters of indoor air quality 
 
 | Hardware | Pin | Pin | Pin | Pin | Pin|
 | --- | --- | --- | --- | --- | --- |
-| DHT22 | GND | VCC | DAT -> pin7|
-| SGP30 | GND | VCC | SDA | SCL |
-| T6713 CO2 sensor | GND | GND | VCC | SDA | SCL |
-| PMS5003 | GND | VCC | TX -> 2 | RX -> 3 |
-| Neopixel | GND | VCC | DAT -> 12 |
-| LCD HD44780 16x2 I2C | GND | VCC | SDA | SCL |
+| DHT22 | GND->GND | VCC->3V3 | DAT->pin7|
+| SGP30 | GND->GND | VIN->3V3 | SDA->SDA | SCL->SCL |
+| T6713 CO2 sensor | GND->GND | GND->GND | VCC->5V | SDA->SDA | SCL->SCL |
+| PMS5003 | GND->GND | VCC->5V | TX -> 2 | RX -> 3 |
+| Neopixel | GND->GND | VCC->3V3 | DAT -> 12 |
+| LCD HD44780 16x2 I2C | GND->GND | VCC->5V | SDA->SDA | SCL->SCL |
 
 Female headers are soldered into copper stripboard for extension of the pins.
 ![3691671012518_ pic](https://user-images.githubusercontent.com/78373920/207567884-369e55c7-f75c-40a2-a964-f65a3deef746.jpg)
