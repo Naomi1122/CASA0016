@@ -1,4 +1,4 @@
-#include "SparkFun_SGP30_Arduino_Library.h" // Click here to get the library: http://librarymanager/All#SparkFun_SGP30
+#include "SparkFun_SGP30_Arduino_Library.h" 
 #include <PMS.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
